@@ -1,0 +1,299 @@
+🚀 PostgreSQL Key-Value Comprehensive Performance Testing
+================================================================================
+1️⃣  Running core tests...
+🚀 STARTING COMPREHENSIVE PERFORMANCE TESTING
+================================================================================
+
+📊 Executing: Simple: Top Rated Movies
+============================================================
+⏱️  Execution time: 0.0670 seconds
+📈 Number of results: 50
+🔍 Sample results:
+   1: (None, "What's New Scooby-Doo? Vol. 3: Halloween Boos and Clues", Decimal('10.0'), 50, 2007)
+   2: (None, "What's New Scooby-Doo? Vol. 4: Merry Scary Holiday", Decimal('10.0'), 46, 2007)
+   3: (None, "What's New, Scooby-Doo? Vol. 7: Ready to Scare", Decimal('10.0'), 46, 2006)
+
+📊 Executing: Simple: Movies from 2020
+============================================================
+⏱️  Execution time: 0.0030 seconds
+📈 Number of results: 30
+🔍 Sample results:
+   1: (None, 'DHONG', Decimal('10.0'), 0, 0)
+   2: (None, 'The Audition 9', Decimal('10.0'), 0, 0)
+   3: (None, 'Yampa', Decimal('10.0'), 2000, 0)
+
+📊 Executing: Simple: High Budget Movies
+============================================================
+⏱️  Execution time: 0.0030 seconds
+📈 Number of results: 25
+🔍 Sample results:
+   1: (None, 'ryan gosling der sutter logan pauls tissemand', 900000000, 16, -899999984)
+   2: (None, 'Enea', 888000000, 0, -888000000)
+   3: (None, 'Adventures in Bora Bora', 800000000, 3000000000, 2200000000)
+
+📊 Executing: Simple: Long Movies
+============================================================
+⏱️  Execution time: 0.0026 seconds
+📈 Number of results: 20
+🔍 Sample results:
+   1: (None, 'Modern Times Forever', 14400, Decimal('7.0'), 2011)
+   2: (None, 'Svalbard minutt for minutt', 13319, Decimal('0.0'), 2020)
+   3: (None, 'Cinématon', 12480, Decimal('4.3'), 1978)
+
+📊 Executing: Simple: Recent Movies
+============================================================
+⏱️  Execution time: 0.3036 seconds
+📈 Number of results: 40
+🔍 Sample results:
+   1: (None, '100 Years', datetime.date(2099, 11, 18), Decimal('0.0'), Decimal('2.238'))
+   2: (None, 'La Grève des ouvriers de Margoline', datetime.date(2074, 1, 1), Decimal('0.0'), Decimal('0.600'))
+   3: (None, 'Pikkuinen...', datetime.date(2061, 12, 7), Decimal('0.0'), Decimal('0.000'))
+
+📊 Executing: Complex: Key-Value Join - Basic
+============================================================
+⏱️  Execution time: 0.0054 seconds
+📈 Number of results: 100
+🔍 Sample results:
+   1: (None, 'Romans', Decimal('10.0'), 0, None, None)
+   2: (None, 'DHONG', Decimal('10.0'), 0, None, None)
+   3: (None, 'Call of the Wild', Decimal('10.0'), 0, None, None)
+
+📊 Executing: Complex: Runtime Category Analysis
+============================================================
+⏱️  Execution time: 0.0594 seconds
+📈 Number of results: 50
+🔍 Sample results:
+   1: (None, 'TikTok Rizz Party', 180, 250000000, 3000000000, None, 'highly_profitable')
+   2: (None, 'Avengers: Endgame', 181, 356000000, 2800000000, None, 'highly_profitable')
+   3: (None, 'Adventures in Bora Bora', 5, 800000000, 3000000000, None, 'highly_profitable')
+
+📊 Executing: Complex: Multi Key-Value Analysis
+============================================================
+⏱️  Execution time: 0.0420 seconds
+📈 Number of results: 0
+
+📊 Executing: Complex: Text Search
+============================================================
+⏱️  Execution time: 0.0220 seconds
+📈 Number of results: 75
+🔍 Sample results:
+   1: (None, 'Lethal Attractions', Decimal('10.0'), "In the African wilderness, there's no such thing as a free lunch. It's a world where predator and prey are equally matched. And
+ a worthwhile meal means going up against gut-gouging horns, venomous fangs, stampeding hooves, and sharp canines. Take a front row seat and witness the bouts of lion vs. Cape buff
+alo, mongoose vs. mamba snake, leopard vs. baboon, and other wild clashes. Here, the odds of success are just 50/50, but in the age-old contest between hunter and hunted, the reward is well worth the risk.")
+   2: (None, 'Burnham Beeches', Decimal('10.0'), "This is the first film of Burnham Beeches, famous beauty spot and ultimate film location. Cecil Hepworth's 1909 film is the first
+of many taken in this tract of ancient woodland. The proximity to film studios - Pinewood, Shepperton and Bray - make this a favoured spot for filming. But before the studios were
+there, the Hepworth Company produced this extraordinary 'stereo scenic' - intended as a filmic equivalent of Victorian stereo cards. This is one of a series of tourist attractions filmed by Gaston Quiribet in a long panning shot from a car, to suggest the glorious photography and aesthetic experience of stereoscopy.")
+   3: (None, 'Ultimate Enemies: Elephants and Lions', Decimal('10.0'), 'Over eight years of filming in the northern wildernesses of Botswana, the Jouberts have now released this fo
+llow up to their famous Emmy Award winning film Eternal Enemies; Lions and Hyenas. A young pride of lions sets out on a grand adventure, leaving their safe home range and walking west into the unknown. When they finally arrive at a water hole, it is a vision of paradise, except the huge bull elephants that dominate stop them from drinking')
+
+📊 Executing: Complex: Financial Analysis
+============================================================
+⏱️  Execution time: 0.0297 seconds
+📈 Number of results: 60
+🔍 Sample results:
+   1: (None, 'Bee Movie', 150000000, 2930000000, 2780000000, Decimal('19.53'), None, 'blockbuster')
+   2: (None, 'TikTok Rizz Party', 250000000, 3000000000, 2750000000, Decimal('12.00'), 2024, 'blockbuster')
+   3: (None, 'Avatar', 237000000, 2923706026, 2686706026, Decimal('12.34'), 2009, 'blockbuster')
+
+📊 Executing: Very Complex: Detailed Yearly Report
+============================================================
+⏱️  Execution time: 0.0486 seconds
+📈 Number of results: 24
+🔍 Sample results:
+   1: (2023, 478, Decimal('4.04'), Decimal('15314333.80'), Decimal('45797260.20'), Decimal('21891090375.00'), Decimal('42.72'), 166, 116, Decimal('30482926.40'), Decimal('64.63'))
+   2: (2022, 409, Decimal('4.67'), Decimal('19109284.11'), Decimal('49747996.98'), Decimal('20346930766.00'), Decimal('62.13'), 147, 77, Decimal('30638712.87'), Decimal('14.82'))
+   3: (2021, 395, Decimal('4.88'), Decimal('17474994.04'), Decimal('35573060.71'), Decimal('14051358981.00'), Decimal('59.60'), 144, 82, Decimal('18098066.67'), Decimal('12.81'))
+
+📊 Executing: Very Complex: Production Companies Analysis
+============================================================
+⏱️  Execution time: 0.0801 seconds
+📈 Number of results: 20
+🔍 Sample results:
+   1: ('Universal Pictures', 188, Decimal('6.50'), Decimal('39530.83'), Decimal('53.71'), Decimal('29433.13'), Decimal('156.56'), Decimal('44.91'))
+   2: ('Warner Bros. Pictures', 152, Decimal('6.55'), Decimal('36037.81'), Decimal('85.94'), Decimal('22974.75'), Decimal('151.15'), Decimal('66.00'))
+   3: ('Walt Disney Pictures', 76, Decimal('6.89'), Decimal('32476.54'), Decimal('139.97'), Decimal('21839.13'), Decimal('287.36'), Decimal('61.21'))
+
+📊 Executing: Very Complex: Genre Analysis with Key-Value
+============================================================
+⏱️  Execution time: 0.0130 seconds
+📈 Number of results: 0
+
+📊 Executing: Very Complex: Complex Time Series
+============================================================
+⏱️  Execution time: 0.0447 seconds
+📈 Number of results: 24
+🔍 Sample results:
+   1: (2000, 200, Decimal('5.91'), 0, 0, 0, Decimal('28.64'), 0, 0, 0, Decimal('105.29'), 0, 0, 0, Decimal('6986.72'), Decimal('24.36'), Decimal('15.04'))
+   2: (2001, 214, Decimal('5.98'), 0, 0, 0, Decimal('30.82'), 0, 0, 0, Decimal('105.15'), 0, 0, 0, Decimal('8689.63'), Decimal('8.49'), Decimal('16.95'))
+   3: (2002, 235, Decimal('5.99'), 0, 0, 0, Decimal('27.90'), 0, 0, 0, Decimal('104.65'), 0, 0, 0, Decimal('9868.78'), Decimal('3.17'), Decimal('15.78'))
+
+📊 Executing: Very Complex: Actors and Crew Analysis
+============================================================
+⏱️  Execution time: 0.0261 seconds
+📈 Number of results: 6
+🔍 Sample results:
+   1: ('Chris Evans', 6, Decimal('7.82'), Decimal('173.83'), Decimal('1090.31'), Decimal('5498.87'))
+   2: ('Mark Ruffalo', 7, Decimal('6.81'), Decimal('136.57'), Decimal('873.54'), Decimal('5158.81'))
+   3: ('Scarlett Johansson', 6, Decimal('7.75'), Decimal('115.83'), Decimal('586.79'), Decimal('2825.75'))
+
+📊 Executing: Key-Value: Key-Value Aggregation by Category
+============================================================
+⏱️  Execution time: 0.0218 seconds
+📈 Number of results: 0
+
+📊 Executing: Key-Value: Key-Value Time Series
+============================================================
+⏱️  Execution time: 0.2585 seconds
+📈 Number of results: 0
+
+2️⃣  Creating visualizations...
+
+📊 CREATING VISUALIZATIONS...
+✅ All visualizations created and saved!
+
+3️⃣  Running detailed analysis...
+
+📈 DETAILED PERFORMANCE ANALYSIS
+============================================================
+🔢 Total tests: 17
+⏱️  Total execution time: 1.0307 seconds
+📊 Average execution time: 0.0606 seconds
+📈 Median execution time: 0.0297 seconds
+🎯 Fastest test: Long Movies (0.0026s)
+🐌 Slowest test: Recent Movies (0.3036s)
+
+📋 ANALYSIS BY CATEGORY:
+
+  🏷️  Complex:
+    • Number of tests: 5
+    • Average time: 0.0317s
+    • Standard deviation: 0.0204s
+    • Fastest: 0.0054s
+    • Slowest: 0.0594s
+    • Total time: 0.1586s
+    • Average result count: 57
+
+  🏷️  Key-Value:
+    • Number of tests: 2
+    • Average time: 0.1402s
+    • Standard deviation: 0.1674s
+    • Fastest: 0.0218s
+    • Slowest: 0.2585s
+    • Total time: 0.2804s
+    • Average result count: 0
+
+  🏷️  Simple:
+    • Number of tests: 5
+    • Average time: 0.0758s
+    • Standard deviation: 0.1303s
+    • Fastest: 0.0026s
+    • Slowest: 0.3036s
+    • Total time: 0.3792s
+    • Average result count: 33
+
+  🏷️  Very Complex:
+    • Number of tests: 5
+    • Average time: 0.0425s
+    • Standard deviation: 0.0255s
+    • Fastest: 0.0130s
+    • Slowest: 0.0801s
+    • Total time: 0.2126s
+    • Average result count: 15
+
+4️⃣  Comparing approaches...
+
+================================================================================
+🥊 DETAILED COMPARISON: Key-Value vs Traditional Approach
+================================================================================
+
+🔍 Test: Simple Categorization
+--------------------------------------------------
+
+📊 Executing: Key-Value - Simple Categorization
+============================================================
+⏱️  Execution time: 0.9339 seconds
+📈 Number of results: 0
+
+📊 Executing: Traditional - Simple Categorization
+============================================================
+⏱️  Execution time: 0.0060 seconds
+📈 Number of results: 100
+🏆 Winner: Traditional (faster by 99.4%)
+
+🔍 Test: Complex Categorization
+--------------------------------------------------
+
+📊 Executing: Key-Value - Complex Categorization
+============================================================
+⏱️  Execution time: 0.8317 seconds
+📈 Number of results: 0
+
+📊 Executing: Traditional - Complex Categorization
+============================================================
+⏱️  Execution time: 0.0040 seconds
+📈 Number of results: 200
+🏆 Winner: Traditional (faster by 99.5%)
+
+🔍 Test: Aggregation by Categories
+--------------------------------------------------
+
+📊 Executing: Key-Value - Aggregation by Categories
+============================================================
+⏱️  Execution time: 0.2779 seconds
+📈 Number of results: 0
+
+📊 Executing: Traditional - Aggregation by Categories
+============================================================
+⏱️  Execution time: 0.3011 seconds
+📈 Number of results: 5
+🏆 Winner: Key-Value (faster by 7.7%)
+
+5️⃣  Generating summary report...
+
+================================================================================
+📋 PERFORMANCE SUMMARY REPORT
+================================================================================
+🔢 Total tests executed: 17
+⏱️  Total time for all tests: 1.0307 seconds
+📊 Average time per test: 0.0606 seconds
+
+🏆 BEST PERFORMANCE:
+   Test: Long Movies
+   Category: Simple
+   Time: 0.0026 seconds
+   Results: 20
+
+🐌 WORST PERFORMANCE:
+   Test: Recent Movies
+   Category: Simple
+   Time: 0.3036 seconds
+   Results: 40
+
+💡 RECOMMENDATIONS:
+   ✅ Fastest category: Complex (avg: 0.0317s)
+   ⚠️  Slowest category: Key-Value (avg: 0.1402s)
+
+🥊 APPROACH COMPARISON:
+   Key-Value wins: 1/3
+   Traditional wins: 2/3
+   🏆 Overall faster: Traditional approach
+
+📊 CONCLUSIONS:
+   • PostgreSQL demonstrated solid performance for Key-Value operations
+   • Simple queries execute the fastest
+   • Complex aggregations take longer but provide rich insights
+   • Key-Value approach offers flexibility for dynamic data
+
+💾 Detailed report saved as 'performance_summary_report.json'
+
+✅ TESTING COMPLETED SUCCESSFULLY!
+📂 Saved files:
+   • comprehensive_performance_results.json - All Results
+   • performance_summary_report.json - Summary Report
+   • 01_all_performance_results.png - All Performance Overview
+   • 02_category_comparison.png - Category Comparison
+   • 03_execution_time_distribution.png - Execution Time Distribution
+   • 04_time_vs_results_correlation.png - Time vs Results Correlation
+   • 05_performance_heatmap.png - Performance Heatmap
+   • 06_distribution_analysis.png - Distribution Analysis
+   • 07_kv_vs_traditional_comparison.png - Key-Value vs Traditional

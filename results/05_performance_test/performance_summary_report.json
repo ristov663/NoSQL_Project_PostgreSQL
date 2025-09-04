@@ -1,0 +1,65 @@
+{
+  "summary": {
+    "total_tests": 17,
+    "total_time": 1.030724287033081,
+    "average_time": 0.06063084041371065,
+    "fastest_test": {
+      "category": "Simple",
+      "test_name": "Long Movies",
+      "execution_time": 0.00261688232421875,
+      "row_count": 20,
+      "timestamp": "2025-09-04T15:03:51.749906"
+    },
+    "slowest_test": {
+      "category": "Simple",
+      "test_name": "Recent Movies",
+      "execution_time": 0.30358362197875977,
+      "row_count": 40,
+      "timestamp": "2025-09-04T15:03:52.055232"
+    }
+  },
+  "category_analysis": {
+    "mean": {
+      "Complex": 0.0317,
+      "Key-Value": 0.1402,
+      "Simple": 0.0758,
+      "Very Complex": 0.0425
+    },
+    "std": {
+      "Complex": 0.0204,
+      "Key-Value": 0.1674,
+      "Simple": 0.1303,
+      "Very Complex": 0.0255
+    }
+  },
+  "comparison_results": [
+    {
+      "test_name": "Simple Categorization",
+      "kv_time": 0.9338836669921875,
+      "traditional_time": 0.006018638610839844,
+      "kv_rows": 0,
+      "traditional_rows": 100,
+      "winner": "Traditional",
+      "improvement": 99.35552587291473
+    },
+    {
+      "test_name": "Complex Categorization",
+      "kv_time": 0.8317468166351318,
+      "traditional_time": 0.003996133804321289,
+      "kv_rows": 0,
+      "traditional_rows": 200,
+      "winner": "Traditional",
+      "improvement": 99.51954925171968
+    },
+    {
+      "test_name": "Aggregation by Categories",
+      "kv_time": 0.27787327766418457,
+      "traditional_time": 0.30112314224243164,
+      "kv_rows": 0,
+      "traditional_rows": 5,
+      "winner": "Key-Value",
+      "improvement": 7.721048739431925
+    }
+  ],
+  "timestamp": "2025-09-04T15:04:22.257035"
+}

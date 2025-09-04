@@ -1,0 +1,121 @@
+[
+  {
+    "category": "Simple",
+    "test_name": "Top Rated Movies",
+    "execution_time": 0.06698179244995117,
+    "row_count": 50,
+    "timestamp": "2025-09-04T15:03:51.740279"
+  },
+  {
+    "category": "Simple",
+    "test_name": "Movies from 2020",
+    "execution_time": 0.0030012130737304688,
+    "row_count": 30,
+    "timestamp": "2025-09-04T15:03:51.744280"
+  },
+  {
+    "category": "Simple",
+    "test_name": "High Budget Movies",
+    "execution_time": 0.0030090808868408203,
+    "row_count": 25,
+    "timestamp": "2025-09-04T15:03:51.747289"
+  },
+  {
+    "category": "Simple",
+    "test_name": "Long Movies",
+    "execution_time": 0.00261688232421875,
+    "row_count": 20,
+    "timestamp": "2025-09-04T15:03:51.749906"
+  },
+  {
+    "category": "Simple",
+    "test_name": "Recent Movies",
+    "execution_time": 0.30358362197875977,
+    "row_count": 40,
+    "timestamp": "2025-09-04T15:03:52.055232"
+  },
+  {
+    "category": "Complex",
+    "test_name": "Key-Value Join - Basic",
+    "execution_time": 0.005446672439575195,
+    "row_count": 100,
+    "timestamp": "2025-09-04T15:03:52.061207"
+  },
+  {
+    "category": "Complex",
+    "test_name": "Runtime Category Analysis",
+    "execution_time": 0.059372663497924805,
+    "row_count": 50,
+    "timestamp": "2025-09-04T15:03:52.122134"
+  },
+  {
+    "category": "Complex",
+    "test_name": "Multi Key-Value Analysis",
+    "execution_time": 0.04201221466064453,
+    "row_count": 0,
+    "timestamp": "2025-09-04T15:03:52.164146"
+  },
+  {
+    "category": "Complex",
+    "test_name": "Text Search",
+    "execution_time": 0.022043943405151367,
+    "row_count": 75,
+    "timestamp": "2025-09-04T15:03:52.188182"
+  },
+  {
+    "category": "Complex",
+    "test_name": "Financial Analysis",
+    "execution_time": 0.029705524444580078,
+    "row_count": 60,
+    "timestamp": "2025-09-04T15:03:52.218883"
+  },
+  {
+    "category": "Very Complex",
+    "test_name": "Detailed Yearly Report",
+    "execution_time": 0.04862403869628906,
+    "row_count": 24,
+    "timestamp": "2025-09-04T15:03:52.268567"
+  },
+  {
+    "category": "Very Complex",
+    "test_name": "Production Companies Analysis",
+    "execution_time": 0.08013534545898438,
+    "row_count": 20,
+    "timestamp": "2025-09-04T15:03:52.348703"
+  },
+  {
+    "category": "Very Complex",
+    "test_name": "Genre Analysis with Key-Value",
+    "execution_time": 0.01304769515991211,
+    "row_count": 0,
+    "timestamp": "2025-09-04T15:03:52.361750"
+  },
+  {
+    "category": "Very Complex",
+    "test_name": "Complex Time Series",
+    "execution_time": 0.044690608978271484,
+    "row_count": 24,
+    "timestamp": "2025-09-04T15:03:52.419037"
+  },
+  {
+    "category": "Very Complex",
+    "test_name": "Actors and Crew Analysis",
+    "execution_time": 0.0260927677154541,
+    "row_count": 6,
+    "timestamp": "2025-09-04T15:03:52.447715"
+  },
+  {
+    "category": "Key-Value",
+    "test_name": "Key-Value Aggregation by Category",
+    "execution_time": 0.021814823150634766,
+    "row_count": 0,
+    "timestamp": "2025-09-04T15:03:52.470450"
+  },
+  {
+    "category": "Key-Value",
+    "test_name": "Key-Value Time Series",
+    "execution_time": 0.2585453987121582,
+    "row_count": 0,
+    "timestamp": "2025-09-04T15:03:52.728995"
+  }
+]

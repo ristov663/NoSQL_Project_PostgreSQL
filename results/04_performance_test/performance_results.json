@@ -1,0 +1,38 @@
+[
+  {
+    "test_name": "Simple Filtering - Top Movies",
+    "execution_time": 0.0,
+    "row_count": 100,
+    "timestamp": "2025-09-04T14:59:34.690734"
+  },
+  {
+    "test_name": "Key-Value Join - Categories",
+    "execution_time": 0.018914222717285156,
+    "row_count": 100,
+    "timestamp": "2025-09-04T14:59:34.709648"
+  },
+  {
+    "test_name": "Yearly Aggregation",
+    "execution_time": 0.05507087707519531,
+    "row_count": 14,
+    "timestamp": "2025-09-04T14:59:34.765680"
+  },
+  {
+    "test_name": "Complex Key-Value Aggregation",
+    "execution_time": 0.016431331634521484,
+    "row_count": 0,
+    "timestamp": "2025-09-04T14:59:34.783107"
+  },
+  {
+    "test_name": "Text Search",
+    "execution_time": 0.012153148651123047,
+    "row_count": 50,
+    "timestamp": "2025-09-04T14:59:34.795260"
+  },
+  {
+    "test_name": "Complex Analysis with Multiple Tables",
+    "execution_time": 0.2836949825286865,
+    "row_count": 0,
+    "timestamp": "2025-09-04T14:59:35.079955"
+  }
+]

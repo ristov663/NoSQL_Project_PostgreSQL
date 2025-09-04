@@ -1,0 +1,78 @@
+PostgreSQL Key-Value Performance Testing
+==================================================
+
+Executing: Simple Filtering - Top Movies
+==================================================
+Execution time: 0.0000 seconds
+Number of results: 100
+Sample results:
+  1: (None, 'Romans', Decimal('10.0'), 0)
+  2: (None, 'DHONG', Decimal('10.0'), 0)
+  3: (None, 'Call of the Wild', Decimal('10.0'), 0)
+
+Executing: Key-Value Join - Categories
+==================================================
+Execution time: 0.0189 seconds
+Number of results: 100
+Sample results:
+  1: (None, 'Romans', Decimal('10.0'), None, None)
+  2: (None, 'DHONG', Decimal('10.0'), None, None)
+  3: (None, 'Call of the Wild', Decimal('10.0'), None, None)
+
+Executing: Yearly Aggregation
+==================================================
+Execution time: 0.0551 seconds
+Number of results: 14
+Sample results:
+  1: (2023, 478, Decimal('4.0389121338912134'), Decimal('15314333.803347280335'), Decimal('45797260.198744769874'))
+  2: (2022, 409, Decimal('4.6735941320293399'), Decimal('19109284.112469437653'), Decimal('49747996.982885085575'))
+  3: (2021, 395, Decimal('4.8754430379746835'), Decimal('17474994.037974683544'), Decimal('35573060.711392405063'))
+
+Executing: Complex Key-Value Aggregation
+==================================================
+Execution time: 0.0164 seconds
+Number of results: 0
+
+Executing: Text Search
+==================================================
+Execution time: 0.0122 seconds
+Number of results: 50
+Sample results:
+  1: (None, 'Lethal Attractions', Decimal('10.0'), "In the African wilderness, there's no such thing as a free lunch. It's a world where predator and prey are equally matched. And
+a worthwhile meal means going up against gut-gouging horns, venomous fangs, stampeding hooves, and sharp canines. Take a front row seat and witness the bouts of lion vs. Cape buffa
+lo, mongoose vs. mamba snake, leopard vs. baboon, and other wild clashes. Here, the odds of success are just 50/50, but in the age-old contest between hunter and hunted, the reward is well worth the risk.")
+  2: (None, 'Burnham Beeches', Decimal('10.0'), "This is the first film of Burnham Beeches, famous beauty spot and ultimate film location. Cecil Hepworth's 1909 film is the first o
+f many taken in this tract of ancient woodland. The proximity to film studios - Pinewood, Shepperton and Bray - make this a favoured spot for filming. But before the studios were t
+here, the Hepworth Company produced this extraordinary 'stereo scenic' - intended as a filmic equivalent of Victorian stereo cards. This is one of a series of tourist attractions filmed by Gaston Quiribet in a long panning shot from a car, to suggest the glorious photography and aesthetic experience of stereoscopy.")
+  3: (None, 'Extinct Attractions Club Presents: The Pirates of the Caribbean Story', Decimal('10.0'), 'See the behind the scenes story as told by the people who worked side by side with Walt Disney on the most famous theme park attraction of all time! From the walk through concept to the final design in Disneyland and Disney Theme parks world wide.')
+
+Executing: Complex Analysis with Multiple Tables
+==================================================
+Execution time: 0.2837 seconds
+Number of results: 0
+
+Chart saved as 'postgresql_performance_results.png'
+
+============================================================
+COMPARISON: Key-Value vs Traditional Approach
+============================================================
+
+Executing: Key-Value Approach
+==================================================
+Execution time: 1.1161 seconds
+Number of results: 0
+
+Executing: Traditional Approach
+==================================================
+Execution time: 0.0157 seconds
+Number of results: 100
+
+COMPARISON RESULTS
+========================================
+Key-Value: 1.1161s (0 rows)
+Traditional: 0.0157s (100 rows)
+Traditional is faster by 98.6%
+
+Testing completed!
+Results saved in 'performance_results.json'
+Chart saved in 'postgresql_performance_results.png'
